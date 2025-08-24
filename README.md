@@ -19,14 +19,14 @@ This repository contains two Python projects developed for embedded systems cour
 - Reads temperature/humidity from an **AHTx0 sensor**.  
 - Displays data on a **16x2 LCD**.  
 - Button toggles between Celsius/Fahrenheit.  
-- State machine manages the scale【11†source】.  
+- State machine manages the scale.  
 
 ### Thermostat (`Thermostat.py`)
 - Three states: **Off**, **Heat**, **Cool**.  
 - LEDs: Red = Heat, Blue = Cool (pulse/solid depending on setpoint vs temp).  
 - Buttons: cycle states, adjust setpoint (±1°F).  
 - LCD alternates between **time/temp** and **state/setpoint**.  
-- Sends **serial update** every 30s with state, temp, and setpoint【22†source】.  
+- Sends **serial update** every 30s with state, temp, and setpoint.  
 
 ---
 
